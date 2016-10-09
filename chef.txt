@@ -1,0 +1,701 @@
+ dpkg -i /tmp/chef-server-core-<version>.deb
+ chef-server-ctl reconfigure
+ chef-server-ctl user-create admin admin admin admin@chef.io admin1234 --filename /etc/chef/admin.pem
+ chef-server-ctl org-create chef "Chef, Inc." --association_user admin --filename /etc/chef/chef-validator.pem
+ xrandr -s 2560*1600
+ 
+export http_proxy=http://web-proxy.jpn.hp.com:8080
+export https_proxy=http://web-proxy.jpn.hp.com:8080
+export ftp_proxy=http://web-proxy.jpn.hp.com:8080
+export HTTP_PROXY=http://web-proxy.jpn.hp.com:8080
+export HTTPS_PROXY=http://web-proxy.jpn.hp.com:8080
+export FTP_PROXY=http://web-proxy.jpn.hp.com:8080
+
+ps aux | grep [a]pt
+/var/lib/apt/lists/lock
+
+sudo -E add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
+git remote add origin git@github.com:rlneo/chef-repo.git
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
+Acquire::http::proxy "http://web-proxy.jpn.hp.com:8080/";
+Acquire::ftp::proxy "http://web-proxy.jpn.hp.com:8080/";
+Acquire::https::proxy "http://web-proxy.jpn.hp.com:8080/";
+
+/etc/apt/apt.conf.d/Ac
+
+sudo -E add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+liangrong@ubuntu:~/Desktop$ ssh-keygen -e -f ids_rsa > ids_rsa_com.pub
+Enter passphrase: 
+liangrong@ubuntu:~/Desktop$ ssh-keygen -i -f ids_rsa_com.pub > ids_rsa.pub
+
+
+Systems listed in your request: c4t12182.itcs.hpecorp.net,c4t12183.itcs.hpecorp.net,c4t12184.itcs.hpecorp.net,c4t12185.itcs.hpecorp.net,c4t12186.itcs.hpecorp.net,c4t12187.itcs.hpecorp.net,c4t12188.itcs.hpecorp.net,c4t12189.itcs.hpecorp.net,c4t12190.itcs.hpecorp.net,c4t12191.itcs.hpecorp.net
+
+Your request id is SRPA #408419.
+
+1)	The admin password should be ECS_TEST123.  I’ve updated the document.
+2)	Can you “sudo su”?  I don’t remember how we enable sudo access for the dev boxes?  Can you ask Adrian and let me know once you figure out the solution and I will update the document.
+88 liangr public key
+
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvVM0hoMq+Pn7zNol4cHS
+SVRNsnMcTBsCKRe5nf3MmzLiRsMn9UfD5LTkDs4yixKoJXVdDdiP0Ez6RmSm7FN7
+pGkIA4dIy8M0zD2oGh59qyVYaDBgM2k/bn3vVE+G7fgMi+PcSknOQ6Lr2Xa/Ce92
+TzT/3hQa0E0bVop7a2Mgy1XK9n9enuz3i41G3qQkUzyWDlzzFE5llAzS05FNHAaH
+BI8oh4Cfp2krDcCOC5pbgVDJilZZENyeru9cwFRpYPLdnIWhqU4xMIcmjVNclawd
+erbb+2aRQhT4+gRCz+QvSVuSrEuHhECjs8+zuTglGORhqhUL3nOPm8sGKMuw6q3p
+lwIDAQAB
+-----END PUBLIC KEY-----
+
+
+88 liangr private key liangr.pem
+
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAvVM0hoMq+Pn7zNol4cHSSVRNsnMcTBsCKRe5nf3MmzLiRsMn
+9UfD5LTkDs4yixKoJXVdDdiP0Ez6RmSm7FN7pGkIA4dIy8M0zD2oGh59qyVYaDBg
+M2k/bn3vVE+G7fgMi+PcSknOQ6Lr2Xa/Ce92TzT/3hQa0E0bVop7a2Mgy1XK9n9e
+nuz3i41G3qQkUzyWDlzzFE5llAzS05FNHAaHBI8oh4Cfp2krDcCOC5pbgVDJilZZ
+ENyeru9cwFRpYPLdnIWhqU4xMIcmjVNclawderbb+2aRQhT4+gRCz+QvSVuSrEuH
+hECjs8+zuTglGORhqhUL3nOPm8sGKMuw6q3plwIDAQABAoIBAFzIiDdb1RWLvaFZ
+T7Nh/6K8VA+eZkHOArMM04TgOwPcXhR70/tbHl/ZXuL6nr6VeB5TdDUy6tgUwZr5
+/OxYxYF/j9Pa2wwxMJDfrqCOTNwxQzBcdOj9LX8C7OWOy/uX0t5D31Pw88sl7xv2
+HA3Mc1jCCptVkwZ+o2U4HOA2Bn5fR3CJeRAj+KwQw+6dKONCC8HIXDBRpUTZ2hGg
++lPeJWCe8MK0O0eB7Bpbsvklub17sYq2RrDiyPnKmLGj3rayqY4WezNCLIDEFPx1
+hyY7Z3wFNvnnKoUHWM5rZh4XAZ+Y3EOIqVOKFEGlxM+KGwxn88tnEAyubchEAexf
+UFC1JLECgYEA4PnMcAEMuLtsfNr05Bg6p6uFgQd/A3Aski6RyBmqrU6NyVZeuNUQ
+rzh+Xp2cmJD3Zhz9SVEodxBDCMP6eqPN+QvEFRekS+SdAxKHrZgvytTbfKtgeh9e
+aCPXe3PpeefiIPHKMpk6DiRHARbQrdY2ujOqZGP4KY4tImWKcv72tRUCgYEA127Y
+w4faVzPonL8MhuUDX66De7ykncnIgjsXn38su/VilhinneBxrIf+N53fg5AZwkIZ
+z8BktHCfVQUhYuHMRgo+aAinZRLndmK4ZdZ9L5kEx5dT5WW/PTX64OKgNmd25Q9i
+gq8HGJFZ3/HhOF5H0e9jPvQ0kXCMtByEC8kUZvsCgYEAyc0IJoeqg6ILBEvbUyaw
+pmnijQTOV6UtNcr0FUuAn4hRAoKo4J6uIp5ILFKwfuG6KSxjvnpAE9zQZHJ2ob+B
+KJ33OvxD8ZeVh4X9kidq50PbxY5sMd8lbcCIr0If8augWPDJ8G0leD3uOvneIbB+
+0rM5ameJ2Kyhq7LtZ41weqkCgYEAumChk3fiw3KbGZCHS+SxKIQYKGKpoADEQTbS
+VyB1GR9P7T7jNEjKz1LP8lnY1z9Bqbf6EKwH87tDfRB1M9DZIvcVyndCKsVSDi+W
+DDSmFRmy8uHOqTV/X3tl0kz+AlM8nyrSNPErmGuXb5EZIeUfCVara/llyTWv5NqO
+uot55SUCgYEA1QTBaVq4/RzksznyhZrHhLPGMkyew0uZwj4fXIexv7+r1r/B9jun
+c7efYnoUnXaWmOO4+Hv2R6TCCO+KtL+Bxt877AQ1gILw//6kH7kM3tH9zht3BcIO
+JvcD0jC6ByecqzrSjUqb7R4KXMxq0I5i/avXsKgCzcvqpxM+/eVGJUk=
+-----END RSA PRIVATE KEY-----
+
+
+https://am-i.serviceportal.hp.com/aries/
+
+
+c4t18665.itcs.hpecorp.net
+
+
+git clone dev_users@usplsvulx1004.vpc.eslabs.ssn.hp.com:/repo/dev/backend/
+git clone chef_users@usplsvulx1004.vpc.eslabs.ssn.hp.com:/repo/chef/glusterfs-server.git
+git clone chef_users@usplsvulx1004.vpc.eslabs.ssn.hp.com:/repo/chef/mysql.git
+https://c4t12188.itcs.hpecorp.net/
+
+chef server upgrade 
+https://docs.chef.io/upgrade_server.html
+
+check chef server version
+/opt/chef-server/version-manifest.txt
+
+
+方法一：    cat /etc/issue
+方法二：    lsb_release -a
+
+方法三：　 cat /etc/redhat-release(针对redhat，Fedora)
+
+/var/lib/yum-repo is the http doc root
+
+  Login name           : hprgliag
+  Initial user password: !EOOuXW? Aa1234!@#$
+
+pln-cmgmt-ljump.core.eslabs.ssn.hp.com
+pln-cmgmt-wjump.core.eslabs.ssn.hp.com
+pln-cd1-iweb8.core.eslabs.ssn.hp.com
+pln-cd1-iweb9.core.eslabs.ssn.hp.com
+pln-cd1-eweb8.core.eslabs.ssn.hp.com
+pln-cd1-eweb9.core.eslabs.ssn.hp.com
+pln-cd1-iweb3.core.eslabs.ssn.hp.com
+pln-cd1-iweb4.core.eslabs.ssn.hp.com
+pln-cd1-hamongo1.core.eslabs.ssn.hp.com
+pln-cd1-hamongo2.core.eslabs.ssn.hp.com
+pln-cd1-hamongo3.core.eslabs.ssn.hp.com
+
+ssh hprgliag@pln-cmgmt-ljump.core.eslabs.ssn.hp.com
+
+liangr Neo1943admin
+
+hprgliag Dd6475^$&% nsu Xx9708(&)*
+
+https://ermweb.ssn.hpe.com
+
+Tulsa:
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/RPI-830
+
+for Justin:
+mysql vips in Tulsa
+
+for Eric:
+1) VLAN #
+2) Two VIPs
+3) Apply VMs from Aries
+
+knife bootstrap --bootstrap-proxy web-proxy.jpn.hp.com:8080 pln-cd1-iweb4.core.eslabs.ssn.hp.com -x neo_test -P Bb2435@$#% -N pln-cd1-iweb4.core.eslabs.ssn.hp.com --sudo --use-sudo-password
+
+knife bootstrap --bootstrap-proxy web-proxy.jpn.hp.com:8080 c9t23771.itcs.hpecorp.net -x chexiaoy -P Sh.Ppc.20171230 -N c9t23771.itcs.hpecorp.net --sudo --use-sudo-password
+
+eweb8=204.104.5.56
+eweb9=204.104.5.57
+iweb8=204.104.5.84
+iweb9=204.104.5.85
+iweb3=204.104.5.78
+iweb4=204.104.5.79
+mongo1=204.104.5.143
+mongo2=204.104.5.144
+mongo3=204.104.5.145
+
+
+
+pln-wjump 205.239.15.22
+pln-ljump 205.239.15.23
+tub-crs1-emong.mcloud.svcs.hpe.com 192.57.117.68
+tub-crs1-iapig.mcloud.svcs.hpe.com 15.163.132.226
+
+
+
+
+
+openssl genrsa -out pln-cd1-iweb4.core.eslabs.ssn.hp.com.key 2048
+openssl req -new -key pln-cd1-iweb4.core.eslabs.ssn.hp.com.key -out pln-cd1-iweb4.core.eslabs.ssn.hp.com.csr -sha1
+
+Hewlett Packard Enterprise Company
+Hewlett-Packard
+c4t12191.itcs.hpecorp.net
+
+
+http://world.taobao.com/item/524078116854.htm?fromSite=main&spm=a230r.1.14.61.WaGTqn&ns=1&abbucket=14#detail
+
+[‎2016/‎2/‎17 8:14] Lee, Morris (Managed Cloud): 
+VPC API GW Int Notification <vpc_api_gw_int_notify@hpe.com> ,  ECS_China_Chef_Developers <ECS_China_Chef_Developers@groups.int.hpe.com> 
+the first PDL is for the API GW team
+we share the internal vip with them
+so any changes to the internal vip we need to notify them als
+
+
+Name:    tub-crs1-iweb.ecs-core.ssn.hp.com
+Address:  15.163.132.224
+
+pln-wjump 205.239.15.22
+pln-ljump 205.239.15.23
+
+tub-crs1-wjump1.ecs-core.ssn.hp.com	30.6.30.244	Windows Jump Server -1
+tub-crs1-ljump1.ecs-core.ssn.hp.com	30.6.30.245	Linux Jump Server - 1
+
+30.6.30.245
+
+
+tub-crs1-eweb5.ecs-core.ssn.hp.com	15.163.135.11	NeoWeb
+tub-crs1-eweb6.ecs-core.ssn.hp.com	15.163.135.12	NeoWeb
+tub-crs1-csa.ecs-core.ssn.hp.com	15.163.135.13	CSA
+tub-crs1-wls5.ecs-core.ssn.hp.com	15.163.132.214	Portlet Apps1 - STG1
+tub-crs1-wls6.ecs-core.ssn.hp.com	15.163.132.215	Portlet Apps2 - STG1
+tub-crs1-oradb1.ecs-core.ssn.hp.com	15.163.132.80	 
+tub-crs1-oradb2.ecs-core.ssn.hp.com	15.163.132.81	 
+tub-crs1-mongodb1.ecs-core.ssn.hp.com	15.163.132.82	 
+tub-crs1-mongodb2.ecs-core.ssn.hp.com	15.163.132.83	 
+tub-crs1-mongodb3.ecs-core.ssn.hp.com	15.163.132.84	 
+
+tub-crs1-iapig.mcloud.svcs.hpe.com
+
+
+openssl genrsa -out tub-crs1-mongodb3.ecs-core.ssn.hp.com.key 2048
+openssl req -new -key tub-crs1-mongodb3.ecs-core.ssn.hp.com.key -out tub-crs1-mongodb3.ecs-core.ssn.hp.com.csr -sha1
+
+Hewlett Packard Enterprise Company
+
+Hewlett-Packard
+
+https://am-i.serviceportal.hp.com/aries/
+timesheet
+https://g4u2848.houston.hpecorp.net:4106/hps-ic-red
+lab engineering esclation:
+https://ent301.sharepoint.hp.com/teams/HelionVPCLab/_layouts/15/start.aspx#/Helion%20Labs/Escalation%27s%20and%20SLA%27s.aspx
+chef guide line
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/confluence/display/QRSPortal/Chef+guidelines+and+best+practices
+
+
+ERM account protal
+https://ermweb.gre.hp.com/earu/live/earu.php?tab=Home&subtab=
+
+You must be on the SSN SSL VPN here 
+https://swa01vpn01.omc.hp.net/dana/home/index.cgi
+
+pln-cmgmt-ljump.core.eslabs.ssn.hp.com
+
+pln-ljump.ecs-core.ssn.hp.com
+
+88:
+c4t12188.itcs.hpecorp.net
+
+c4t18665.itcs.hpecorp.net
+
+FT_Jump
+204.104.5.221
+pln-ljump_tulsa
+205.239.15.23
+tulsa_jump
+30.6.30.245
+
+
+# yum install vixie-cron crontabs
+# /sbin/chkconfig crond on
+# /sbin/service crond start
+
+cronie-anacron-1.4.4-15.el6_7.1.x86_64
+crontabs-1.10-33.el6.noarch
+cronie-1.4.4-15.el6_7.1.x86_64
+
+
+
+=================================================================================================================================================================================================================
+ Package                                        Arch                                   Version                                           Repository                                                         Size
+=================================================================================================================================================================================================================
+Updating:
+ crontabs                                       noarch                                 1.10-33.el6                                       RedHat-updates-QPK-6Server-x86_64                                  10 k
+ libibverbs                                     x86_64                                 1.1.8-4.el6                                       RedHat-updates-QPK-6Server-x86_64                                  53 k
+ librdmacm                                      x86_64                                 1.0.19.1-1.el6                                    RedHat-updates-QPK-6Server-x86_64                                  59 k
+Installing for dependencies:
+ cronie                                         x86_64                                 1.4.4-15.el6_7.1                                  RedHat-updates-QPK-6Server-x86_64                                  74 k
+ cronie-anacron                                 x86_64                                 1.4.4-15.el6_7.1                                  RedHat-updates-QPK-6Server-x86_64                                  31 k
+ exim                                           x86_64                                 4.72-7.el6                                        RedHat-6Server-x86_64-Fedora-EPEL                                 1.2 M
+ rdma                                           noarch                                 6.7_3.15-5.el6                                    RedHat-updates-QPK-6Server-x86_64                                  28 k
+
+Transaction Summary
+=================================================================================================================================================================================================================
+
+
+(1/7): cronie-1.4.4-15.el6_7.1.x86_64.rpm                                                                                                                                                 |  74 kB     00:00     
+(2/7): cronie-anacron-1.4.4-15.el6_7.1.x86_64.rpm                                                                                                                                         |  31 kB     00:00     
+(3/7): crontabs-1.10-33.el6.noarch.rpm                                                                                                                                                    |  10 kB     00:00     
+(4/7): exim-4.72-7.el6.x86_64.rpm                                                                                                                                                         | 1.2 MB     00:02     
+(5/7): libibverbs-1.1.8-4.el6.x86_64.rpm                                                                                                                                                  |  53 kB     00:00     
+(6/7): librdmacm-1.0.19.1-1.el6.x86_64.rpm                                                                                                                                                |  59 kB     00:00     
+(7/7): rdma-6.7_3.15-5.el6.noarch.rpm                                                                                                                                                     |  28 kB     00:00   
+
+The accounts have been created and the password is
+
+*_UnIx1234
+
+
+public for first vip and private cert for the second vip
+
+
+tub-crs1-emong.mcloud.svcs.hpe.com public
+
+tub-crs1-iapig.mcloud.svcs.hpe.com private
+
+openssl genrsa -out tub-crs1-emong.mcloud.svcs.hpe.com.key 2048
+openssl req -new -key tub-crs1-emong.mcloud.svcs.hpe.com.key -out tub-crs1-emong.mcloud.svcs.hpe.com.csr -sha1
+
+Hewlett Packard Enterprise Company
+
+Hewlett-Packard
+
+cat /etc/redhat-release
+
+CSA Ldap address
+
+
+pln-wjump 205.239.15.22
+
+vpc\liangr
+Bb2435@$#%
+
+ASIAPACIFIC\liangr Bb2345@#$%
+
+What is the criteria used to decide if a NRAF is needed to open a firewall request for a port?
+Why 35357 and 27017 but not 1521 or 3306? 
+
+US1-WCSP1.05.01	IHE Portal (UI) - NO CHG	PORTAL_ADOP01	Portal Adoption	Invest	 
+US1-WCSP1.05.01	IHE Portal (UI) - NO CHG	PORTAL_DEV01	Portal Development	Invest
+
+
+x root -P r4usi@tul_01
+
+vi /etc/sudoers
+, /usr/bin/chef-client
+
+tulsa chef servers:
+
+https://204.104.68.67/organizations
+
+username liangrong
+
+password Aa1234!@#$
+
+monday tuesday wednesday thursday friday
+
+411	Design 412	Implementation 413	Documentation  414	Testing US1-WCSP1.05.01	PORTAL_DEV01
+
+Scala MemCached Kafka Akka Zabbix
+
+catw password Dd4567$%^&
+
+Sheng, Si-Hong (HP-Software) <sihong.sheng@hpe.com>
+
+Check with them to collect requirements
+
+for app server only - 
+
+Propel - Jason
+
+Token - justin
+
+Thursday meeting - process to discuss auto syncing for Tulsa
+
+collect requirements of propel / token memory issue and submit aries request
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/LE-232
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/LE-234
+
+recipe[standard_server_setup]
+recipe[portlet_proxy]
+recipe[vpc_portal_server]
+recipe[ecs_python]
+recipe[apache-vpc]
+recipe[token-client@0.1.3]
+recipe[token-service@0.8.0]
+recipe[token-idm@0.6.0]
+recipe[api4storage-web]
+recipe[api4network-web]
+recipe[api4ipam@1.0.4]
+recipe[serverspec@1.0.0]
+recipe[onboarding-portal]
+recipe[memcached@0.1.0]
+recipe[mysql@0.4.2]
+recipe[mongodb]
+
+[‎2016/‎4/‎7 21:36] Lee, Morris (Managed Cloud): 
+pool [pool name] {
+  
+  listen [port]
+  members ip1, ip2
+  monitor
+} 
+monitor = tcp | https | GET /monitor.html
+[‎2016/‎4/‎7 21:38] Lee, Morris (Managed Cloud): 
+GET /monitor.html
+'Server Up'
+alias /monitor.html > /usr/share/nginx/html/monitor-443.html
+[‎2016/‎4/‎7 21:39] Lee, Morris (Managed Cloud): 
+alias /monitor.html > /usr/share/nginx/html/monitor-token.html
+
+
+Bb2435@$#%
+
+    elif echo $hostname | grep -i 'tub' >/dev/null ; then
+        echo "Data center: Tulsa"
+        master="tub-crs1-mongodb1.$domain"
+        slaves="tub-crs1-mongodb2.$domain tub-crs1-mongodb3.$domain"
+
+
+knife bootstrap --bootstrap-proxy web-proxy.jpn.hp.com:8080 pln-cd1-iweb4.core.eslabs.ssn.hp.com -x neo_test -P Bb2435@$#% -N pln-cd1-iweb4.core.eslabs.ssn.hp.com --sudo --use-sudo-password
+
+# useradd -ou 0 -g 0 john
+# passwd john
+
+show slave status \G
+
+GFS Setup Step:
+1.	Sync the rpm packages from depot server to stage environment 
+2.	Sync the glusterfs-client and glusterfs-server cookbook to stage environment
+3.	Step glusterfs server to mongodb node
+a.	Run chef-client –o glusterfs-server command for the 15.163.132.82, 15.163.132.83 and 15.163.132.84
+b.	Run chef-client –o glusterfs-server::home command in 15.163.132.82
+c.	Run gluster volume status command in 15.163.132.82 to check glusterfs server status 
+
+4.	Step glusterfs client to portal node
+a.	Run chef-client –o glusterfs-client command for the 15.163.132.214 and 15.163.132.215
+b.	Switch to 15.163.132.214 node, go to /var/glusterfs/naportal_vscan folder,run touch test.txt command to create a test file
+c.	Switch to 15.163.132.215 node,go to /var/glusterfs/naportal_vscan folder to check the test.txt file 
+
+
+createrepo --update /srv/my/repo
+
+
+ "recipe[standard_server_setup]",      // Le, Mai
+    "recipe[vpc_portal_server@0.2.6]",    // Lee, Morris
+    "recipe[apache-vpc@0.4.2]",           // Lee, Morris
+    "recipe[ecs_python@4.0.1]",           // Lee, Morris
+    "recipe[token-client@0.1.3]",         // Wang, Gang (Justin)
+    "recipe[token-service@0.5.2]",        // Wang, Gang (Justin)
+    "recipe[token-idm@0.2.2]",            // Wang, Gang (Justin)
+    "recipe[api4storage-web@0.17.0]",      // Jia, Wen-Qiang (Kevin)    
+    "recipe[api4network-web@1.3.1]",      // Chen, Bill
+    "recipe[api4ipam@1.0.4]",             // Dai, yanmiao
+    "recipe[serverspec@1.0.0]"            // Dai, yanmiao
+
+
+chef-client -o "recipe[apache2],recipe[token-client]"
+
+You can also disable chef-client daemon, by running chef-client --once
+
+psql -U {user_name} -d {database_name} -f {file_path} -h {host_name}
+
+
+atc-cr-eweb3 15.163.16.177
+atc-cr-eweb4 15.163.16.178
+atc-cr-iweb6 15.163.16.211
+atc-cr-iweb7 15.163.16.212
+atc-cr-wls3 15.163.20.14
+atc-cr-wls4 15.163.20.15
+atc-cr-mongodb1 15.163.16.240
+atc-cr-mongodb2 15.163.16.241
+atc-cr-mongodb3 15.163.16.242
+swa-cr-eweb3 15.163.16.187
+swa-cr-eweb4 15.163.16.188
+swa-cr-iweb6 15.163.16.221
+swa-cr-iweb7 15.163.16.222
+swa-cr-wls3 15.163.20.24
+swa-cr-wls4 15.163.20.25
+swa-cr-mongodb1 15.163.16.250
+swa-cr-mongodb2 15.163.16.251
+swa-cr-mongodb3 15.163.16.252
+
+
+ATC & SWA wls nodes certificate update
+
+atc-cr-wls3.ecs-core.ssn.hp.com 15.163.20.14
+atc-cr-wls4.ecs-core.ssn.hp.com 15.163.20.15
+swa-cr-wls3.ecs-core.ssn.hp.com 15.163.20.24
+swa-cr-wls4.ecs-core.ssn.hp.com 15.163.20.25
+
+openssl genrsa -out atc-cr-wls3.ecs-core.ssn.hp.com.key 2048
+
+openssl req -new -key atc-cr-wls3.ecs-core.ssn.hp.com.key -out atc-cr-wls3.ecs-core.ssn.hp.com.csr -sha1
+
+Hewlett-Packard
+
+
+drwxr-xr-x. 7 chef_users root       4096 Jan 15 15:17 propel_ha.git
+drwxr-xr-x. 7 chef_users root       4096 Jan 15 15:10 propel_nginx.git
+drwxr-xr-x. 7 chef_users root       4096 Jan 15 15:09 propel_oo.git
+drwxr-xr-x. 7 chef_users root       4096 Jan 15 15:09 propel_postgres.git
+drwxr-xr-x. 7 chef_users root       4096 Jan 15 15:10 propel_rabbitmq.git
+
+
+[‎2016/‎5/‎24 7:58] Liang, Rong (Neo, Managed Cloud): 
+chef-client -o standard_server_setup::add_databag_secret 
+
+
+/usr/pgsql-9.4/bin/psql
+
+https://ea2013.sharepoint.hp.com/teams/GlobalPayrollTransformationProgram/SitePages/Home.aspx ask for leave
+
+SPARK
+
+
+git config --global url."https://".insteadOf git://
+
+http_proxy=http://web-proxy.jpn.hp.com:8080
+https_proxy=http://web-proxy.jpn.hp.com:8080
+ftp_proxy=http://web-proxy.jpn.hp.com:8080
+HTTP_PROXY=http://web-proxy.jpn.hp.com:8080
+HTTPS_PROXY=http://web-proxy.jpn.hp.com:8080
+FTP_PROXY=http://web-proxy.jpn.hp.com:8080
+
+
+export http_proxy=<your-http-proxy>
+export https_proxy=<your-https-proxy>
+export no_proxy=127.0.0.1,12.34.56.78
+
+$ mkdir ~/.pip
+　　$ vim ~/.pip/pip.conf
+　　--------pip.conf--------
+　　[global]
+　　index-url=http://pypi.douban.com/simple/
+
+
+
+l2-network
+l3-router
+
+前面和ben聊了一下，他们现在是固定周一开始在ft1上跑周四要上生产的内容，之后测试，他建议我们能在周四周五最我们开发的内容做测试，然后周一给到他们他们周一可以一次测，这个昨天和andy one one的时候也说了，固定一下时间窗口，会和dev说这个情况，使得整体协调下来效率会高一些
+
+
+	
+For Ubuntu 14.04.2 LTS  Linux vagrant-ubuntu-trusty-64 3.13.0-54-generic #91-Ubuntu SMP Tue May 26 19:15:08 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+Edit you /etc/default/docker file
+
+sudo vim /etc/default/docker
+Add this line at the bottom:
+
+export http_proxy="http://PROXY_IP:PROXY_PORT"
+Restart the docker service
+
+sudo service docker restart
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/MIE-363 - PROD - please add erm account hprgliag into following PROD nodes
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/MIE-192 Tulsa - Open FW rule for App server/ qualysapi
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/MIE-141  - STAGE - Please open fw port for ipam in Tulsa
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/MIE-103 - fw rules for tulsa
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/MIE-150 - lb for tulsa
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/MIE-157 - talk with Nemo
+
+
+1065812315018
+
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/RPI-1379
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/RPI-1380
+
+
+1051251841419
+
+luyu xuhai yangyang
+
+36541 36561
+
+
+302618233@qq.com 	1 	laruna 	林 	晓茹 	1990-10-13 	Female 	Beijing Municipality 	 	 	Shanghai Maritime University 	ljingjing1317 	18217069327 	91 
+
+
+OpenShift
+
+1)openshift kubernets
+2)ospa
+3)
+4)ansible
+5)freescale
+6)mobility
+
+
+emi->1)kernel 2)ramdisk 3)disk
+
+
+ceph:
+
+low level: rados->librados->radosgw(object storage)
+					      ->rbd (block)
+			    ->ceph fs(distributed fs)
+
+monitor->contains all ceph control info
+       ->osd (object storage based device) ->every device corresponding to one osd process
+       ->PG (logical storage group)
+
+FILE->Objects->PGs->CRUSH(pgid)->(osd1,osd2)
+only last step on Ceph server, others on Ceph clients
+
+
+A failure domain is the area of a network impacted when a key device or service experiences problems. Downtime Percentage of time in which a network is unavailable because of administratively shutdown or equipment failure.
+
+Manila - NAS
+
+file system by client - san
+file system by server - nas
+
+http_proxy=http://web-proxy.cup.hp.com:8088/
+FTP_PROXY=http://web-proxy.cup.hp.com:8088/
+ftp_proxy=http://web-proxy.cup.hp.com:8088/
+HTTPS_PROXY=http://web-proxy.cup.hp.com:8088/
+https_proxy=http://web-proxy.cup.hp.com:8088/
+HTTP_PROXY=http://web-proxy.cup.hp.com:8088/
+
+master 16.250.14.100 c9t24405.itcs.hpecorp.net 
+minion 16.250.18.139 c9t24406.itcs.hpecorp.net 
+
+# Comma separated list of nodes in the etcd cluster
+KUBE_ETCD_SERVERS="--etcd-servers=http://c9t24405.itcs.hpecorp.net:2379"
+
+# logging to stderr means we get it in the systemd journal
+KUBE_LOGTOSTDERR="--logtostderr=true"
+
+# journal message level, 0 is debug
+KUBE_LOG_LEVEL="--v=0"
+
+# Should this cluster be allowed to run privileged docker containers
+KUBE_ALLOW_PRIV="--allow-privileged=false"
+
+# How the replication controller and scheduler find the kube-apiserver
+KUBE_MASTER="--master=http://c9t24405.itcs.hpecorp.net:8080"
+
+
+openssl genrsa -out /tmp/serviceaccount.key 2048
+ 
+vim /etc/kubernetes/apiserver:
+KUBE_API_ARGS="--service_account_key_file=/tmp/serviceaccount.key"
+ 
+vim /etc/kubernetes/controller-manager
+KUBE_CONTROLLER_MANAGER_ARGS="--service_account_private_key_file=/tmp/serviceaccount.key"
+systemctl restart kube-controller-manager.service
+
+
+admin iIsyQGzOPE
+
+admin K1zaHcYFiN
+
+
+PermitRootLogin without-password  
+RSAAuthentication yes
+PubkeyAuthentication yes
+
+
+http://www.pingan.com/property_insurance/pa18AutoInquiry/mapIndex.do
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/RPI-1493
+
+江苏省扬中市西来桥镇北胜村606号
+
+366
+
+Initial user password: p2jcN6*F!t
+Initial root password: 3zwQw7WzqU
+
+NOTE: Empty field means password hasn't been reseted
+
+https://content.int.hpe.com/sites/HRGateway/smp/protected/Home.page#Compensation_Benefits 
+
+
+daemon.neo@yeah.net Neo1943admin
+
+knife bootstrap --bootstrap-proxy web-proxy.jpn.hp.com:8080 hc4w00312.itcs.hpecorp.net -x AMERICAS\$xita001 -P 1qaz@WSX6yhn -N hc4w00312.itcs.hpecorp.net
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+N2 liangr Smile@1234
+
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/RPI-1528
+
+[‎2016/‎9/‎27 9:28] Earl, Christopher (Converged Cloud): 
+its a git repo, then do the manual fetch and pull
+/opt/hp/propel_files/propel_ui/shared/cached-copy 
+[‎2016/‎9/‎27 9:29] Earl, Christopher (Converged Cloud): 
+after this, re-run the cookbook and it should finish
+
+
+http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/
+
+standby
+
+https://content.int.hpe.com/sites/HRGateway/smp/protected/Home.page 
+
+https://atcswa-cr-atlassian.ecs-core.ssn.hp.com/jira/browse/RPI-1543
+
